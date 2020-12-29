@@ -2,7 +2,7 @@
 Project repository for Tech1 Test Task.
 
 ## Project
-In resources, you'll see the application configuration that sets up our database and Hibernate, It also contains a data.sql file with a couple of items to populate the database with. Spring will run this file every time the application starts.
+In resources, you'll see the application configuration that sets up our database and Hibernate, It also contains a data.sql file with a couple of users and articles to populate the database with. Spring will run this file every time the application starts.
 
  The project contains following packages:
  - entity - this package contains the data models that Hibernate persists to H2. There are 2 models: User and Article. Looking at the application main class, you'll see the @EntityScan annotation, telling Spring that this package contains our data models.
