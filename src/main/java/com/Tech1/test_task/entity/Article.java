@@ -20,7 +20,7 @@ public class Article {
     @Enumerated(EnumType.STRING)
     private Color color;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "user")
     private User user;
 

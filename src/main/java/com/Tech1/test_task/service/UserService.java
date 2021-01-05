@@ -12,7 +12,7 @@ import java.util.Optional;
 public class UserService {
 
     @Autowired
-    UserRepository userRepository;
+     UserRepository userRepository;
 
     public User saveUser(User user){
 
